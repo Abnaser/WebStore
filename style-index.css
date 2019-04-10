@@ -1,0 +1,230 @@
+@font-face {
+font-family: DeliciousRoman;
+src: url(Lifestyle Rounded M54.ttf);
+}
+
+
+.top-line {
+  background-color: #d35ca3;
+  font-family: Lifestyle Rounded M54;
+  color: white !important;
+  padding: 3px;
+}
+.btn-search {
+  background-color: white !important;
+  font-family: Lifestyle Rounded M54;
+  color: #d35ca3;
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;     /* Align the flex-items vertically */
+  justify-content: center; /* Optional, to align inner flex-items
+                              horizontally within the column  */
+}
+.logo {
+  text-align: center;
+}
+.greeting {
+  text-align: right !important;
+}
+.aboutUs {
+  border: 2px solid black;
+
+}
+.aboutUs h1 {
+  font-size: 70px;
+  color: #992b6c;
+  font-family: Lifestyle Rounded M54;
+}
+.aboutUs p {
+  font-size: 16px;
+}
+.navbar {
+  font-family: Lifestyle Rounded M54;
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: black !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1769b6 !important;
+}
+.navbar-nav li:hover {
+  border-bottom: 2px solid #1769b6;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.footer h1 {
+  font-size: 20px;
+  font-family: Lifestyle Rounded M54;
+}
+.footer h6 {
+  font-size: 12px;
+
+  font-weight: bold;
+  color: #1467b6;
+  font-family: Lifestyle Rounded M54;
+
+}
+.footer a {
+  font-size: 14px;
+  color: grey;
+}
+.footer {
+  background-color: #e7eff7;
+}
+        p{
+            text-align: center;
+            color: black;
+            font-size: larger;
+            font-weight:bold;
+        }
+        label{
+            color: black;
+            font-size: large;
+            font-weight:bold;
+        }
+        button{
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            width: 33%;
+            font-size:medium;
+        }
+        .displayed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+        input{
+            width:30%;
+            padding: 12px 20px;
+        }
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*
+.navbar {
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 17px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+}
+.navbar ul {
+}
+.navbar li a, .navbar {
+    color: #993333 !important;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ffffff !important;
+    background-color: #993333 !important;
+    box-shadow: 2px 0 5px grey, -2px 0 5px grey, 0 2px 5px grey, 0 -2px 5px grey;
+
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+#myCarousel {
+  padding-top: 200px;
+}
+.container {
+    padding-bottom: 60px;
+}
+.aboutUs{
+  font-family: "Trebuchet MS";
+  background-color: #ffe6e6;
+}
+.aboutUs img {
+
+}
+.aboutUs h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+.aboutUs p {
+  font-size: 16px;
+}*/
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-60 { font-size: 60px; }
+.material-icons.md-72 { font-size: 72px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
